@@ -20,4 +20,4 @@ jobs:
         run: echo "Hello, world! VAR_TEST is $VAR_TEST"
 
       - name: Run test secret
-        run: echo "secret test is ${{ $TEST_SECRET }}"
+        run: echo "secret test is ${{ secrets.TEST_SECRET }}"
