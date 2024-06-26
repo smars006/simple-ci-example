@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run a on-line script
-        run: echo "Hello, world! VAR_TEST : ${{ $VAR_TEST }}"
+        run: echo "Hello, world! VAR_TEST : $VAR_TEST"
