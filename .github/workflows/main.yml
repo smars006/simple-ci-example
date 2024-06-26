@@ -1,0 +1,17 @@
+name: Simple CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkoutv4
+
+      - name: Run a on-line script
+        run: echo "Hellow, world!"
