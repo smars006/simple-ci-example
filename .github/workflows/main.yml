@@ -19,15 +19,3 @@ jobs:
 
       - name: Run a on-line script
         run: echo "Hello, world! VAR_TEST is $VAR_TEST"
-
-      - name: Run test secret
-        run: echo "secret test is ${{ secrets.TEST_SECRET }}"
-
-      - name: Run test secret env
-        run: echo "secret test env is ${{ secrets.ENV_TEST_SECRET }}"
-
-      - name: Run test var
-        run: echo "secret test is ${{vars.REP_VAR }}"
-
-      - name: Run test var env
-        run: echo "secret test env is ${{ vars.VAR_ENV }}"
