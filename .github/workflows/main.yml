@@ -10,7 +10,7 @@ env:
 
 jobs:
   build:
-    if: $VAR_TEST == "1234"
+    if: ${{ $VAR_TEST == "1234" }}
     runs-on: ubuntu-latest
     environment: ENV_TEST
 
